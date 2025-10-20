@@ -1,0 +1,14 @@
+CAMtasticDXP Drill Report
+Serial Number:0000-00-00000
+Drill File: D:\PROJEKTI\Projekt_Kolibri\PCB_Workspace\Projekt_Kolibri_SensorBoard\Project Outputs for Projekt_Kolibri_SensorBoard\cam.drl
+Format: 4.4
+Units: Metric (mm.)
+Step & Repeat Codes Used: NO
+
+
+TOOL		SIZE		COUNT
+====		======		=====
+
+ 1 		0.2000		12
+ 2 		0.5000		7
+ 3 		1.0000		1

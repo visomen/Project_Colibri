@@ -1,0 +1,100 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 0 3.556 11.176 180 N C5 Capacitor_100_nF_+/-10%_50_V_0603 ;0=1,1=0.9000
+PRP Capacitor_Type 'Ceramic'
+PRP Case/Package '0603'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mounting_Technology 'SM'
+PRP Pins '2'
+PRP Ripple_Current ''
+PRP Ripple_Current_(AC) ''
+PRP RoHS_Compliant 'True'
+PRP Tolerance '10%'
+PRP Value '4.7uF'
+PRP Voltage_Rating '50V'
+TOP 0 4.18100002 11.176 90 N 8 9 C5-1
+TOP 1 2.93099998 11.176 90 N 7 13 C5-2
+#
+# CMP 1
+CMP 0 3.556 2.54 180 N C4 Capacitor_100_nF_+/-10%_50_V_0603 ;0=1,1=0.9000
+PRP Capacitor_Type 'Ceramic'
+PRP Case/Package '0603'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mounting_Technology 'SM'
+PRP Pins '2'
+PRP Ripple_Current ''
+PRP Ripple_Current_(AC) ''
+PRP RoHS_Compliant 'True'
+PRP Tolerance '10%'
+PRP Value '4.7uF'
+PRP Voltage_Rating '50V'
+TOP 0 4.18100002 2.54 90 N 8 8 C4-1
+TOP 1 2.93099998 2.54 90 N 7 12 C4-2
+#
+# CMP 2
+CMP 0 6.604 11.176 0 N C2 Capacitor_100_nF_+/-10%_50_V_0603 ;0=1,1=0.9000
+PRP Capacitor_Type 'Ceramic'
+PRP Case/Package '0603'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mounting_Technology 'SM'
+PRP Pins '2'
+PRP Ripple_Current ''
+PRP Ripple_Current_(AC) ''
+PRP RoHS_Compliant 'True'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage_Rating '50V'
+TOP 0 5.97899998 11.176 270 N 8 7 C2-1
+TOP 1 7.22900002 11.176 270 N 7 11 C2-2
+#
+# CMP 3
+CMP 0 6.604 2.54 0 N C1 Capacitor_100_nF_+/-10%_50_V_0603 ;0=1,1=0.9000
+PRP Capacitor_Type 'Ceramic'
+PRP Case/Package '0603'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mounting_Technology 'SM'
+PRP Pins '2'
+PRP Ripple_Current ''
+PRP Ripple_Current_(AC) ''
+PRP RoHS_Compliant 'True'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage_Rating '50V'
+TOP 0 5.97899998 2.54 270 N 8 10 C1-1
+TOP 1 7.22900002 2.54 270 N 7 14 C1-2
+#
+# CMP 4
+CMP 2 5.08 6.858 270 N U1 VL53L5CX ;0=1,1=0.0000
+PRP Copyright 'Copyright (C) 2022 Ultra Librarian. All rights reserved.'
+PRP Manufacturer_Part_Number 'VL53L5CXV0GC/1'
+PRP Mfr_Name 'STMicroelectronics'
+PRP RefDes 'RefDes'
+PRP Type 'DEV'
+TOP 0 4.1275 4.60799942 90 N 5 1 U1-A1
+TOP 1 4.1275 5.35800046 90 N 7 15 U1-A2
+TOP 2 4.1275 6.10799896 90 N 3 2 U1-A3
+TOP 3 4.1275 6.858 90 N 8 11 U1-A4
+TOP 4 4.1275 7.60800104 90 N 6 2 U1-A5
+TOP 5 4.1275 8.35799954 90 N 7 16 U1-A6
+TOP 6 4.1275 9.10800058 90 N 7 17 U1-A7
+TOP 7 5.08 4.4069 0 N 8 13 U1-B1
+TOP 8 5.08 6.858 270 N 7 21 U1-B4
+TOP 9 5.08 9.3091 0 N 8 12 U1-B7
+TOP 10 6.0325 4.60799942 90 N 7 20 U1-C1
+TOP 11 6.0325 5.35800046 90 N 2 1 U1-C2
+TOP 12 6.0325 6.10799896 90 N 1 2 U1-C3
+TOP 13 6.0325 6.858 90 N 4 2 U1-C4
+TOP 14 6.0325 7.60800104 90 N 0 0 U1-C5
+TOP 15 6.0325 8.35799954 90 N 7 19 U1-C6
+TOP 16 6.0325 9.10800058 90 N 7 18 U1-C7
+#

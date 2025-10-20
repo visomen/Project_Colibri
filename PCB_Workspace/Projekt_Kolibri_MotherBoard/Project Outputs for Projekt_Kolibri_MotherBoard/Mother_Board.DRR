@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Mother_Board.PcbDoc   26/11/2022  19:30:34
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Mother_Board.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             60        PTH        298.16mm (11.74inch)
+T2      0.4mm (16mil)                                             Round             40        PTH        149.32mm (5.88inch)
+T3      0.5mm (20mil)                                             Round             12        PTH        161.05mm (6.34inch)
+T4      0.8mm (31mil)                                             Round             5         PTH        32.12mm (1.26inch)
+T5      1mm (39mil)                                               Round             16        PTH        58.42mm (2.30inch)
+T6      2mm (79mil)                                               Round             8         PTH        178.90mm (7.04inch)
+T7      16mm (630mil)                                             Round             1         PTH        0.00mm (0.00inch)
+T8      1.575mm (62mil)                                           Round             8         NPTH       144.99mm (5.71inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              150
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,101 @@
+UNITS=MM
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 1 2.794 3.048 90 N R6 Resistor_0R_+/-_5%_0603_100_mW ;0=1,1=0.5500
+PRP Case/Package '0603'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mounting_Technology 'SM'
+PRP Pins '2'
+PRP Power '100mW'
+PRP RoHS_Compliant 'True'
+PRP Tolerance '5%'
+PRP Value '47k'
+PRP Voltage_Rating '50V'
+TOP 0 2.794 3.74800114 180 N 5 0 R6-1
+TOP 1 2.794 2.3480014 180 N 7 4 R6-2
+#
+# CMP 1
+CMP 1 6.096 3.048 270 N R5 Resistor_0R_+/-_5%_0603_100_mW ;0=1,1=0.5500
+PRP Case/Package '0603'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mounting_Technology 'SM'
+PRP Pins '2'
+PRP Power '100mW'
+PRP RoHS_Compliant 'True'
+PRP Tolerance '5%'
+PRP Value '47k'
+PRP Voltage_Rating '50V'
+TOP 0 6.096 2.34799886 0 N 8 2 R5-1
+TOP 1 6.096 3.7479986 0 N 2 0 R5-2
+#
+# CMP 2
+CMP 1 4.064 3.048 270 N R4 Resistor_0R_+/-_5%_0603_100_mW ;0=1,1=0.5500
+PRP Case/Package '0603'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mounting_Technology 'SM'
+PRP Pins '2'
+PRP Power '100mW'
+PRP RoHS_Compliant 'True'
+PRP Tolerance '5%'
+PRP Value '47k'
+PRP Voltage_Rating '50V'
+TOP 0 4.064 2.34799886 0 N 8 3 R4-1
+TOP 1 4.064 3.7479986 0 N 3 0 R4-2
+#
+# CMP 3
+CMP 1 7.366 3.048 270 N R3 Resistor_0R_+/-_5%_0603_100_mW ;0=1,1=0.5500
+PRP Case/Package '0603'
+PRP Max_Operating_Temperature '155°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mounting_Technology 'SM'
+PRP Pins '2'
+PRP Power '100mW'
+PRP RoHS_Compliant 'True'
+PRP Tolerance '5%'
+PRP Value '47k'
+PRP Voltage_Rating '50V'
+TOP 0 7.366 2.34799886 0 N 8 4 R3-1
+TOP 1 7.366 3.7479986 0 N 6 0 R3-2
+#
+# CMP 4
+CMP 3 9.53400176 6.87399946 0 N Conn1 ZIF_Connector_10_05mm ;0=1,1=0.0000
+TOP 0 2.83400246 11.07400122 180 N 3 1 Conn1-1
+TOP 1 3.33400146 7.874 180 N 6 1 Conn1-2
+TOP 2 3.83400046 11.07400122 180 N 8 6 Conn1-3
+TOP 3 4.33399946 7.874 180 N 8 5 Conn1-4
+TOP 4 4.834001 11.07400122 180 N 1 1 Conn1-5
+TOP 5 5.334 7.874 180 N 1 0 Conn1-6
+TOP 6 5.83400154 11.07400122 180 N 7 6 Conn1-7
+TOP 7 6.33400054 7.874 180 N 7 5 Conn1-8
+TOP 8 6.83400208 11.07400122 180 N 4 1 Conn1-9
+TOP 9 7.33400108 7.874 180 N 4 0 Conn1-10
+TOP 10 8.73400082 7.87399746 180 N 7 7 Conn1-GND
+TOP 11 1.43400018 7.87399746 180 N 7 8 Conn1-GND
+TOP 12 1.43400018 11.07399868 180 N 7 9 Conn1-GND
+TOP 13 8.73400082 11.07399868 180 N 7 10 Conn1-GND
+#
+# CMP 5
+CMP 0 5.08 5.08 180 N C3 Capacitor_100_nF_+/-10%_50_V_0603 ;0=1,1=0.9000
+PRP Capacitor_Type 'Ceramic'
+PRP Case/Package '0603'
+PRP Max_Operating_Temperature '125°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mounting_Technology 'SM'
+PRP Pins '2'
+PRP Ripple_Current ''
+PRP Ripple_Current_(AC) ''
+PRP RoHS_Compliant 'True'
+PRP Tolerance '10%'
+PRP Value '100nF'
+PRP Voltage_Rating '50V'
+TOP 0 4.45499998 5.08 90 N 8 1 C3-1
+TOP 1 5.70500002 5.08 90 N 7 3 C3-2
+#
